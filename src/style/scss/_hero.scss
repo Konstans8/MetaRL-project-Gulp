@@ -1,0 +1,44 @@
+.hero {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.hero__container {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.hero__left {
+    max-width: 30%;
+    margin-right: 30px;
+    
+    h1 {
+        font-weight: 400;
+        font-size: 51px;
+        line-height: 61px;
+        max-width: 500px;
+        margin-bottom: 40px;
+        margin-top: 60px;
+    }
+
+    p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 115px;
+        max-width: 400px;
+    }
+
+    button {
+        @include button;
+    }
+}
+
+.hero__right {
+    img {
+        width: 100%;
+    }
+}

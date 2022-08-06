@@ -1,0 +1,49 @@
+.artists {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.artists__wrapper {
+    position: relative;
+    height: 200px;
+
+    ul {
+        position: absolute;
+        display: flex;
+
+        li {
+            font-weight: 400;
+            font-size: 79px;
+            line-height: 88px;
+            width: 637px;
+        }
+    }
+}
+
+
+.artists__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
+
+    img {
+        margin-bottom: 20px;
+    }
+
+    li {
+        width: 245px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+
+        p {
+            font-family: 'DMMono';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}

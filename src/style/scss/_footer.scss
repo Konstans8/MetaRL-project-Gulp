@@ -1,0 +1,39 @@
+.footer {
+    background-color: #42006A;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    justify-items: center;
+}
+
+.footer__nav {
+    ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+.footer__descr {
+    p {
+        font-family: 'DMMono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 30px;
+    }
+}
+
+.fooetr__social {
+    height: 36px;
+}
+
+.social__img:hover {
+    opacity: .4;
+}

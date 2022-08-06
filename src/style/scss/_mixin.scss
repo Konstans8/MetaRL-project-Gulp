@@ -1,0 +1,24 @@
+@mixin button {
+    font-family: 'DMMono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 22px 40px;
+    background-color: $btn-color;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $hover;
+    }
+
+    &:focus {
+        background-color: $focus;
+    }
+
+    &:active {
+        background-color: $active;
+        color: $text-color;
+    }
+}

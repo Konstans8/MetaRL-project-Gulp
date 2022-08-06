@@ -1,0 +1,33 @@
+$bg-color: #000;
+$text-color: #fff;
+$btn-color: #8DFD1B;
+$hover: #C6FF8C;
+$focus: #F3FF6B;
+$active: #BFD000;
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: $bg-color;
+    font-family: 'Audiowide';
+    color: white;
+}
+
+.container {
+    max-width: 1160px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: $text-color;
+    font-family: 'DMMono';
+}
+
+ul {
+    list-style: none;
+}

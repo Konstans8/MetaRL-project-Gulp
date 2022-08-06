@@ -1,0 +1,46 @@
+.finaly {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.finaly__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finaly__left {
+    width: 350px;
+
+    h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 51px;
+        line-height: 61px;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+
+        span {
+            color: #8DFD1B;
+        }
+    }
+
+    p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 50px;
+    }
+
+    button {
+        @include button;
+    }
+}
+
+.finaly__right {
+    img {
+        width: 100%;
+    }
+}

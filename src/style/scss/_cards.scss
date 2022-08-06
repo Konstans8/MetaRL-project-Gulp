@@ -1,0 +1,114 @@
+.cards {
+    padding-bottom: 70px;
+    background-image: url(/images/circle.png);
+    background-repeat: no-repeat;
+    background-position: left 30%;
+}
+
+.card__background-img {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.cards__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/images/circle.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.cards__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.card {
+    border: 1px solid $btn-color;
+    background-color: #222222;
+    max-width: 540px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    .card__top {
+        border-bottom: 1px solid $btn-color;
+        display: flex;
+        padding-top: 12px;
+        padding-left: 12px;
+        padding-bottom: 12px;
+
+        button {
+            font-family: 'DMMono';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 28px;
+            background-color: $btn-color;
+            border: none;
+            padding: 8px 16px;
+            margin-right: 12px;
+        }
+
+        .card__top-right {
+            span {
+                font-family: 'DMMono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 8px;
+                line-height: 12px;
+                color: $btn-color;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-family: 'DMMono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .card__bottom {
+        display: flex;
+        padding: 30px 12px;
+
+        .card__bottom-left {
+            span {
+                display: block;
+                margin-left: 25px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 32px;
+            }
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 26px;
+                max-width: 300px;
+            }
+        }
+
+        .card__right {
+            margin-left: 87px;
+        }
+    }
+}
+
+.line {
+    height: 40px;
+    width: 2px;
+    background-color: $btn-color;
+}

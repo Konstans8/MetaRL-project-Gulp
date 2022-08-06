@@ -1,0 +1,21 @@
+.header__container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header__list {
+    display: flex;
+    
+
+    li:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.header__social {
+    height: 36px;
+}
